@@ -27,9 +27,12 @@ body {
     align-items: center;
     border: 3px solid #584545;
     border-radius: 20%;
+    transition: all 0.07s;
+    background: #00000066;
 }
 
-.key:hover {
+.playing {
+    transform: scale(1.1);
     box-shadow: 0 0 5px 5px #f86f49;
 }
 
@@ -50,6 +53,3 @@ body {
     color: #f86f49;
     -webkit-text-stroke: 1px #000000;
 }
-
-
-
